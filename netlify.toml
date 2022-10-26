@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/angular-modules"
+  publish = "dist/myng-store"
   command = "npm run build"
 [[redirects]]
   from = "/*"
