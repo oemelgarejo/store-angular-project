@@ -40,3 +40,15 @@ ng g c cms/components/layout
 
 # Quicklink strategy
 npm i ngx-quicklink --save
+
+# Netlify config for CI
+
+netlify.toml
+
+[build]
+  publish = "dist/angular-modules"
+  command = "npm run build"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
