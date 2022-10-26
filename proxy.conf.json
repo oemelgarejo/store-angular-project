@@ -1,0 +1,11 @@
+{
+  "/api/*": {
+    "target": "https://young-sands-07814.herokuapp.com",
+    "secure": true,
+    "logLevrl": "debug",
+    "chageOrigin": true,
+    "pathRewrite": {
+      "^/api": "/"
+    }
+  }
+}

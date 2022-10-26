@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Slides
+npm i swiper
+
+# Files
+For download and upload files by http, npm i file-saver @types/file-saver --save-dev
+
+# Modules
+ng g m cms --routing
+ng g c cms/pages/tasks
+ng g c cms/pages/grid
+ng g c cms/components/layout
+
+# Quicklink strategy
+npm i ngx-quicklink --save
